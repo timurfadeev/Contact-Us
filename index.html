@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,400,500,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contact Us</title>
+</head>
+
+<body>
+  <header id="header">
+    <div class="container">
+      <img class="header-logo" src="img/head-logo.png" alt="logo">
+      <nav class="head-title-nav">
+        <a href="#">Work</a>
+        <a href="#">Services</a>
+        <a href="#">Team</a>
+        <a href="#">Blog</a>
+        <a class="btn-head" href="#">Contact</a>
+      </nav>
+    </div>
+    <h1 class="head-title">Start a project</h1>
+    <p class="head-text">Discuss your project with one of our Engagement Managers
+      to get a first quote within 72 hours.</p>
+  </header>
+  <section class="contact-us-form-tabs">
+    <div class="contact-us-tab-nav">
+      <div class="container">
+        <ul class="tab-navs d-flex">
+          <li class="nav-item">
+            <a href="#fixed-price" class="nav-item-link d-flex align-items-center justify-content-center">Fixed price
+              project</a>
+          </li>
+          <li class="nav-item">
+            <a href="#dedicated-team"
+              class="nav-item-link d-flex align-items-center justify-content-center active">Dedicated team</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="contact-us-tabs-content d-flex">
+        <div class="tabs-with-forms">
+          <form id="fixed-price">
+            <div class="d-flex">
+              <div class="project-radio-group-fixed">
+                <p class="title-top-radio">Select a project type</p>
+                <div class="title-button-radio">
+                  <img src="img/fixed-artwork.png" alt="button">
+                  <div class="title-button-type">
+                    <input type="radio" name="radio-button" id="artwork">
+                    <h2>Artwork</h2>
+                    <p>
+                      Graphics design,<br>
+                      animation or UX / UI
+                    </p>
+                  </div>
+                </div>
+                <div class="title-button-radio">
+                  <img src="img/fixed-full-cycle.png" alt="button">
+                  <div class="title-button-type">
+                    <input type="radio" name="radio-button" id="full-cycle">
+                    <h2>Full-cycle</h2>
+                    <p>
+                      Full-cycle game<br>
+                      development
+                    </p>
+                  </div>
+                </div>
+                <div class="title-button-radio">
+                  <img src="img/fixed-icon-mvp.png" alt="button">
+                  <div class="title-button-type">
+                    <input type="radio" name="radio-button" id="mvp">
+                    <h2>MVP</h2>
+                    <p>
+                      Game prototyping<br>
+                      within 2-4 weeks
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="main-wrapper_button">
+                <input type="file" id="myfile" name="myfile">
+                <p>Attach a file</p>
+                <label class="button-main" for="myfile">Browse</label>
+              </div>
+              <div class="input-wrapper">
+                <div class="input-item">
+                  <textarea type="text" id="message" class="form-control" data-label-animated></textarea>
+                  <label for="message">What do you want to build?</label>
+                </div>
+                <div class="input-item">
+                  <textarea type="text" id="user-name" class="form-control" data-label-animated></textarea>
+                  <label for="user-name">Can we have your name?</label>
+                </div>
+                <div class="input-item">
+                  <input type="text" id="email" class="form-control" data-label-animated>
+                  <label for="email">How about your email?</label>
+                </div>
+                <div class="info-type-lock">
+                  <div class="main-block-text_button">
+                    <img src="img/lock.png" alt="logo-lock">
+                    <p>The information you provide won't be accessible to anyone besides your dedicated
+                      manager. It is protected through our standard <span>Non Disclosure Agreement</span>.
+                    </p>
+                  </div>
+                  <form action="#">
+                    <button class="btn-main">
+                      <a href="">Get a Quote</a>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </form>
+          <form id="dedicated-team">
+            <div class="d-flex">
+              <div class="project-types-part">
+                <div class="project-type-checkbox">
+                  <input type="checkbox" name="frontend" id="frontend">
+                  <label for="frontend">
+                    <h6 class="project-type-title">Front end</h6>
+                    <div class="project-team-type-radio-group d-flex justify-content-between">
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="unity">
+                        <label for="unity" class="d-flex align-items-center">Unity</label>
+                      </div>
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="html5">
+                        <label for="html5" class="d-flex align-items-center">HTML5</label>
+                      </div>
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="frontend" id="js">
+                        <label for="js" class="d-flex align-items-center">JS</label>
+                      </div>
+                    </div>
+                  </label>
+                  <input type="checkbox" name="backend" id="backend">
+                  <label for="backend">
+                    <h6 class="project-type-title">Back end</h6>
+                    <div class="project-team-type-radio-group d-flex justify-content-between">
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="backend" id="java">
+                        <label for="java" class="d-flex align-items-center">Java</label>
+                      </div>
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="backend" id="php">
+                        <label for="php" class="d-flex align-items-center">PHP</label>
+                      </div>
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="backend" id="net">
+                        <label for="net" class="d-flex align-items-center">.NET</label>
+                      </div>
+                    </div>
+                  </label>
+                  <input type="checkbox" name="design" id="design">
+                  <label for="design">
+                    <h6 class="project-type-title">Design</h6>
+                    <div class="project-team-type-radio-group d-flex justify-content-between">
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="design" id="2d">
+                        <label for="2d" class="d-flex align-items-center">2D</label>
+                      </div>
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="design" id="3d">
+                        <label for="3d" class="d-flex align-items-center">3D</label>
+                      </div>
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="design" id="ux/ui">
+                        <label for="ux/ui" class="d-flex align-items-center">UX/UI</label>
+                      </div>
+                    </div>
+                  </label>
+                  <input type="checkbox" name="animation" id="animation">
+                  <label for="animation">
+                    <h6 class="project-type-title">Animation</h6>
+                    <div class="project-team-type-radio-group d-flex justify-content-between">
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="animation" id="2d-anim">
+                        <label for="2d-anim" class="d-flex align-items-center">2D</label>
+                      </div>
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="animation" id="3d-anim">
+                        <label for="3d-anim" class="d-flex align-items-center">3D</label>
+                      </div>
+                      <div class="project-team-type-radio">
+                        <input type="radio" name="animation" id="vfx">
+                        <label for="vfx" class="d-flex align-items-center">VFX</label>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+              </div>
+              <div class="main-form-part ">
+                <div class="main-form-montch d-flex">
+                  <div class="main-type-checkbox">
+                    <input type="radio" name="montch" id="3montch">
+                    <label for="3montch">
+                      <h6 class="main-type-title">3 montch</h6>
+                    </label>
+                  </div>
+                  <div class="main-type-checkbox">
+                    <input type="radio" name="montch" id="6montch">
+                    <label for="6montch">
+                      <h6 class="main-type-title">6 montch</h6>
+                    </label>
+                  </div>
+                  <div class="main-type-checkbox">
+                    <input type="radio" name="montch" id="12montch">
+                    <label for="12montch">
+                      <h6 class="main-type-title">12 montch</h6>
+                    </label>
+                  </div>
+                </div>
+                <div class="input-item">
+                  <textarea type="text" id="message" class="form-control" data-label-animated></textarea>
+                  <label for="message">What do you want to build?</label>
+                </div>
+                <div class="input-item">
+                  <textarea type="text" id="user-name" class="form-control" data-label-animated></textarea>
+                  <label for="user-name">Can we have your name?</label>
+                </div>
+                <div class="input-item">
+                  <input type="text" id="email" class="form-control" data-label-animated>
+                  <label for="email">How about your email?</label>
+                </div>
+                <div class="info-type-lock">
+                  <div class="main-lock-img">
+                    <img class="lock-img" src="img/lock.png" alt="lock">
+                    <p class="lock-text-ifno">The information you provide won't be accessible to anyone besides your
+                      dedicated
+                      manager. It is protected through our standard <span>Non Disclosure Agreement</span>.
+                    </p>
+                    <a class="btn-main position" href="#">Get A Quote</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="trusted-us-partners">
+          <h6 class="trusted-us-title">Trusted By</h6>
+          <div class="trusted-us-imgs d-flex">
+            <div class="trusted-us-img">
+              <img src="img/partner-logo-1.png" alt="partner">
+            </div>
+            <div class="trusted-us-img">
+              <img src="img/partner-logo-2.png" alt="partner">
+            </div>
+            <div class="trusted-us-img">
+              <img src="img/partner-logo-3.png" alt="partner">
+            </div>
+            <div class="trusted-us-img">
+              <img src="img/partner-logo-5.png" alt="partner">
+            </div>
+            <div class="trusted-us-img">
+              <img src="img/partner-logo-6.png" alt="partner">
+            </div>
+            <div class="trusted-us-img">
+              <img src="img/partner-logo-7.png" alt="partner">
+            </div>
+            <div class="trusted-us-img">
+              <img src="img/partner-logo-8.png" alt="partner">
+            </div>
+            <div class="trusted-us-img">
+              <img src="img/partner-logo-9.png" alt="partner">
+            </div>
+            <div class="trusted-us-img">
+              <img src="img/partner-logo-10.png" alt="partner">
+            </div>
+            <div class="trusted-us-img">
+              <img src="img/partner-logo-11.png" alt="partner">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="map-wrapper">
+    <img class="map-img" src="img/map-bg.png" alt="map">
+    <div class="map-content">
+      <div class="container">
+        <div class="map-title-text">
+          <h4>What customers say</h4>
+          <p class="map-text-title">“They're flexible, responsive and
+            do high-quality work.”
+          </p>
+          <span class="map-text-name">Lindsay Holden</span>
+          <br>
+          <span class="map-text-info">CEO, LONG GAME SAVINGS INC</span>
+          <div class="map-title-links">
+            <h3>Follow us</h3>
+            <i class="fab fa-behance"></i>
+            <i class="fab fa-dribbble"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <br>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-behance"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-wrap d-flex">
+          <div class="footer-wrap-list">
+            <h3>Main</h3>
+            <p class="text-list"><a href="#">Work</a></p>
+            <p class="text-list"><a href="#">Services</a></p>
+            <p class="text-list"><a href="#">Contact</a></p>
+          </div>
+          <div class="footer-wrap-list">
+            <h3>Work models</h3>
+            <p class="text-list"><a href="#">Fixed price project</a></p>
+            <p class="text-list"><a href="#">Dedicated team</a></p>
+          </div>
+          <div class="footer-wrap-list">
+            <h3>Company</h3>
+            <p class="text-list"><a href="#">Team</a></p>
+            <p class="text-list"><a href="#">About us</a></p>
+            <p class="text-list"><a href="#">Careers</a></p>
+          </div>
+          <div class="footer-wrap-list">
+            <h3>Latest articles</h3>
+            <p class="text-list-underline"><a href="#">Meeting at White Nights Berlin 2019</a></p>
+            <p class="text-list-underline"><a href="#">How to design a 3d character from scratch</a></p>
+            <p class="text-list-underline"><a href="#">Top 15 game features besides the core gameplay</a></p>
+          </div>
+          <div class="footer-wrap-list">
+            <p class="footer-list-reserve">All Rights Reserve<br>
+              © 2010 - 2019</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+    $(".contact-us-form-tabs").tabs();
+    $('[data-label-animated]').on('blur', function (event) {
+      if (event.target.value) {
+        $(event.target).addClass('value-exist');
+      } else {
+        $(event.target).removeClass('value-exist');
+      }
+    })
+  </script>
+</body>
+
+</html>
